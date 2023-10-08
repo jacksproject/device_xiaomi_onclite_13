@@ -1,1 +1,2 @@
 allow netutils_wrapper netutils_wrapper:capability { kill };
+allow netutils_wrapper proc_net:file{ getattr  read };
